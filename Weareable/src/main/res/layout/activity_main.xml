@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.WatchViewStub
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/watch_view_stub"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:rectLayout="@layout/rect_activity_main"
+    app:roundLayout="@layout/round_activity_main"
+    tools:context="com.devfest.gdg.devfestwear.MainActivity"
+    tools:deviceIds="wear">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="2dp"
+              android:text="@string/main_activity_title_text"
+              android:textSize="30sp"
+              android:textColor="#006600"/>
+
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:onClick="onFinishActivity"
+              android:text="@string/finish_activity" />
+
+
+      </LinearLayout>
+
+
+
+
+
+</android.support.wearable.view.WatchViewStub>
