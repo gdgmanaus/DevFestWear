@@ -8,7 +8,7 @@ public class ListActivity extends Activity
         implements WearableListView.ClickListener {
 
     // Sample dataset for the list
-    String[] elements = { "List Item 1", "List Item 2" };
+    String[] elements = { "List Item 1", "List Item 2", "List Item 3" };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
