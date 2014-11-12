@@ -31,6 +31,12 @@
               android:onClick="onFinishActivity"
               android:text="@string/finish_activity" />
 
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:onClick="onNewActivity"
+              android:text="@string/new_activity" />
+
 
       </LinearLayout>
 

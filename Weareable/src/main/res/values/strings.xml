@@ -8,5 +8,6 @@
     <string name="main_activity_title_text">MainActivity</string>
     <string name="finish_activity">Finish</string>
     <string name="title_activity_list">ListActivity</string>
+    <string name="new_activity">New Activity</string>
 
 </resources>
